@@ -4,7 +4,7 @@ This project uses the Nursing Home Compare open datasets from the Centers for Me
 
 #!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#
 ## Order to run MedicareUS_scripts ##
-## 1_nursing_homes_SNA_looping_April2018.sas
+## [1_nursing_homes_SNA_looping_April2018.sas](https://github.com/tylerpittman/NursingHomesSNA/scripts/1_nursing_homes_SNA_looping_April2018.sas)
 ## 2_nursing_homes_SNA_looping_April2018.sas
 ## 3_nursing_homes_SNA_looping_April2018.sas
 ## 4_transpose_MDS_fixed_November2018.sas

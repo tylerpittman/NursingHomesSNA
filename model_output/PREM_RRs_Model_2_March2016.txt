@@ -1,0 +1,105 @@
+
+ Iterations = 150001:999916
+ Thinning interval  = 85
+ Sample size  = 10000 
+
+ DIC: 59234.76 
+
+ G-structure:  ~Provider_State
+
+               post.mean l-95% CI u-95% CI eff.samp
+Provider_State    0.2619   0.1545   0.3885    10373
+
+               ~HRR
+
+    post.mean l-95% CI u-95% CI eff.samp
+HRR   0.07866   0.0582  0.09991     9696
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units     0.526    0.507   0.5441    10000
+
+ Location effects: Total_Weighted_Health_Survey_Sco ~ Adjusted_CNA_Staffing_Hours_per + Adjusted_LPN_Staffing_Hours_per + Adjusted_RN_Staffing_Hours_per_R + Number_of_Residents_in_Certified + Occupancy_Rate + Years_Business + Ownership_Type + Provider_Resides_in_Hospital + Special_Focus_Facility + Continuing_Care_Retirement_Commu + With_a_Resident_and_Family_Counc + Provider_Changed_Ownership_in_La + Subgroup_Simple_Overall_by_HRR + proportionMultiple_HRRSc + meanDegreeMultiple_HRRSc + mds_401 + mds_402 + mds_403 + 
+    mds_404 + mds_405 + mds_406 + mds_407 + mds_408 + mds_409 + mds_410 + mds_411 + mds_415 + mds_419 + mds_424 + mds_425 + mds_426 + mds_430 + mds_434 + mds_451 + mds_452 + mds_471 
+
+                                     post.mean l-95% CI u-95% CI eff.samp
+(Intercept)                            31.1408  25.3518  38.7123     9553
+Adjusted_CNA_Staffing_Hours_per         0.9310   0.8983   0.9673    10000
+Adjusted_LPN_Staffing_Hours_per         1.0221   0.9728   1.0711    10000
+Adjusted_RN_Staffing_Hours_per_R        0.6908   0.6249   0.7594    10740
+Number_of_Residents_in_Certified        1.0023   1.0018   1.0027    10326
+Occupancy_Rate                          0.9928   0.9912   0.9943    10000
+Years_Business                          1.0019   1.0002   1.0036    10000
+Ownership_TypeGovernment                0.8753   0.8016   0.9580    10000
+Ownership_TypeNon-profit                0.8855   0.8418   0.9348    10210
+Provider_Resides_in_HospitalYes         1.1230   0.9678   1.2967     9226
+Special_Focus_FacilityYes               3.3024   2.6798   4.0591    10371
+Continuing_Care_Retirement_CommuYes     0.9777   0.9115   1.0474    10000
+With_a_Resident_and_Family_CouncYes     1.0007   0.8638   1.1494    10000
+Provider_Changed_Ownership_in_LaYes     1.0588   0.9608   1.1616    10000
+Subgroup_Simple_Overall_by_HRRSingle    1.0633   1.0222   1.1063    10000
+proportionMultiple_HRRSc                0.9987   0.9955   1.0017    10000
+meanDegreeMultiple_HRRSc                1.0000   0.9798   1.0216    10000
+mds_401                                 1.0084   1.0049   1.0117    10000
+mds_402                                 1.0044   1.0010   1.0080     9702
+mds_403                                 1.0210   1.0161   1.0264    10000
+mds_404                                 1.0054   1.0007   1.0103    10528
+mds_405                                 0.9992   0.9980   1.0003    10000
+mds_406                                 1.0152   1.0076   1.0231    10127
+mds_407                                 0.9904   0.9850   0.9952    10000
+mds_408                                 1.0009   0.9988   1.0029    10000
+mds_409                                 1.0061   0.9953   1.0173    10000
+mds_410                                 1.0095   1.0014   1.0176    10000
+mds_411                                 0.9938   0.9915   0.9960     9688
+mds_415                                 0.9980   0.9960   1.0001    10000
+mds_419                                 1.0051   1.0025   1.0075    10000
+mds_424                                 0.9997   0.9975   1.0020    10000
+mds_425                                 1.0144   1.0016   1.0276    10000
+mds_426                                 0.9997   0.9982   1.0012    10000
+mds_430                                 0.9958   0.9942   0.9972    10000
+mds_434                                 1.0171   1.0085   1.0262    10000
+mds_451                                 1.0032   1.0006   1.0060    10000
+mds_452                                 0.9993   0.9971   1.0014    10388
+mds_471                                 0.9972   0.9959   0.9984    10000
+                                       pMCMC    
+(Intercept)                          <0.0001 ***
+Adjusted_CNA_Staffing_Hours_per       0.0002 ***
+Adjusted_LPN_Staffing_Hours_per       0.3810    
+Adjusted_RN_Staffing_Hours_per_R     <0.0001 ***
+Number_of_Residents_in_Certified     <0.0001 ***
+Occupancy_Rate                       <0.0001 ***
+Years_Business                        0.0322 *  
+Ownership_TypeGovernment              0.0044 ** 
+Ownership_TypeNon-profit             <0.0001 ***
+Provider_Resides_in_HospitalYes       0.1192    
+Special_Focus_FacilityYes            <0.0001 ***
+Continuing_Care_Retirement_CommuYes   0.5158    
+With_a_Resident_and_Family_CouncYes   0.9862    
+Provider_Changed_Ownership_in_LaYes   0.2436    
+Subgroup_Simple_Overall_by_HRRSingle  0.0014 ** 
+proportionMultiple_HRRSc              0.4076    
+meanDegreeMultiple_HRRSc              0.9920    
+mds_401                              <0.0001 ***
+mds_402                               0.0108 *  
+mds_403                              <0.0001 ***
+mds_404                               0.0250 *  
+mds_405                               0.1704    
+mds_406                              <0.0001 ***
+mds_407                               0.0004 ***
+mds_408                               0.3818    
+mds_409                               0.2840    
+mds_410                               0.0214 *  
+mds_411                              <0.0001 ***
+mds_415                               0.0626 .  
+mds_419                              <0.0001 ***
+mds_424                               0.8162    
+mds_425                               0.0300 *  
+mds_426                               0.7100    
+mds_430                              <0.0001 ***
+mds_434                               0.0006 ***
+mds_451                               0.0204 *  
+mds_452                               0.5364    
+mds_471                              <0.0001 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

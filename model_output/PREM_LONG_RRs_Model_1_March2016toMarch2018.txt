@@ -1,0 +1,137 @@
+
+ Iterations = 15001:114991
+ Thinning interval  = 10
+ Sample size  = 10000 
+
+ DIC: 398894.3 
+
+ G-structure:  ~Federal_Provider_Number
+
+                        post.mean l-95% CI u-95% CI eff.samp
+Federal_Provider_Number     0.515   0.5001   0.5301     8654
+
+               ~Provider_State
+
+               post.mean l-95% CI u-95% CI eff.samp
+Provider_State    0.2492   0.1467   0.3694    10000
+
+               ~HRR
+
+    post.mean l-95% CI u-95% CI eff.samp
+HRR   0.09621  0.07479   0.1209     7171
+
+               ~Processing_Date
+
+                post.mean l-95% CI u-95% CI eff.samp
+Processing_Date    0.3276  0.04528   0.8488    10000
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units    0.1653   0.1626   0.1681     8854
+
+ Location effects: Total_Weighted_Health_Survey_Sco ~ Adjusted_CNA_Staffing_Hours_per + Adjusted_LPN_Staffing_Hours_per + Adjusted_RN_Staffing_Hours_per_R + Number_of_Residents_in_Certified + Occupancy_Rate + Years_Business + Ownership_Type + Provider_Resides_in_Hospital + Special_Focus_Facility + Continuing_Care_Retirement_Commu + With_a_Resident_and_Family_Counc + Provider_Changed_Ownership_in_La + QM_Rating + Subgroup_Simple_Overall_by_HRR + proportionMultiple_HRRSc + meanDegreeMultiple_HRRSc + delta_HHI_HRRSc + 
+    Ownership_Type * Subgroup_Simple_Overall_by_HRR 
+
+                                                              post.mean
+(Intercept)                                                     27.1474
+Adjusted_CNA_Staffing_Hours_per                                  0.9672
+Adjusted_LPN_Staffing_Hours_per                                  1.0134
+Adjusted_RN_Staffing_Hours_per_R                                 0.7947
+Number_of_Residents_in_Certified                                 1.0030
+Occupancy_Rate                                                   0.9947
+Years_Business                                                   1.0056
+Ownership_TypeGovernment                                         0.9536
+Ownership_TypeNon-profit                                         0.8784
+Provider_Resides_in_HospitalTRUE                                 0.9135
+Special_Focus_FacilityTRUE                                       1.8545
+Continuing_Care_Retirement_CommuTRUE                             0.9142
+With_a_Resident_and_Family_CouncYes                              1.0725
+Provider_Changed_Ownership_in_LaTRUE                             0.9923
+QM_Rating2                                                       0.9585
+QM_Rating3                                                       0.9357
+QM_Rating4                                                       0.8994
+QM_Rating5                                                       0.8389
+Subgroup_Simple_Overall_by_HRRSingle                             1.0217
+proportionMultiple_HRRSc                                         0.9985
+meanDegreeMultiple_HRRSc                                         0.9834
+delta_HHI_HRRSc                                                  1.0318
+Ownership_TypeGovernment:Subgroup_Simple_Overall_by_HRRSingle    0.8849
+Ownership_TypeNon-profit:Subgroup_Simple_Overall_by_HRRSingle    0.9649
+                                                              l-95% CI u-95% CI
+(Intercept)                                                    15.9874  46.6773
+Adjusted_CNA_Staffing_Hours_per                                 0.9560   0.9797
+Adjusted_LPN_Staffing_Hours_per                                 0.9977   1.0300
+Adjusted_RN_Staffing_Hours_per_R                                0.7702   0.8198
+Number_of_Residents_in_Certified                                1.0027   1.0033
+Occupancy_Rate                                                  0.9941   0.9954
+Years_Business                                                  1.0042   1.0069
+Ownership_TypeGovernment                                        0.9094   0.9990
+Ownership_TypeNon-profit                                        0.8454   0.9107
+Provider_Resides_in_HospitalTRUE                                0.8611   0.9724
+Special_Focus_FacilityTRUE                                      1.7403   1.9926
+Continuing_Care_Retirement_CommuTRUE                            0.8843   0.9481
+With_a_Resident_and_Family_CouncYes                             1.0299   1.1199
+Provider_Changed_Ownership_in_LaTRUE                            0.9674   1.0161
+QM_Rating2                                                      0.9401   0.9768
+QM_Rating3                                                      0.9172   0.9552
+QM_Rating4                                                      0.8806   0.9186
+QM_Rating5                                                      0.8208   0.8586
+Subgroup_Simple_Overall_by_HRRSingle                            0.9953   1.0486
+proportionMultiple_HRRSc                                        0.9972   0.9998
+meanDegreeMultiple_HRRSc                                        0.9753   0.9921
+delta_HHI_HRRSc                                                 0.6551   1.6351
+Ownership_TypeGovernment:Subgroup_Simple_Overall_by_HRRSingle   0.8221   0.9509
+Ownership_TypeNon-profit:Subgroup_Simple_Overall_by_HRRSingle   0.9189   1.0136
+                                                              eff.samp   pMCMC
+(Intercept)                                                      10000 <0.0001
+Adjusted_CNA_Staffing_Hours_per                                   9660 <0.0001
+Adjusted_LPN_Staffing_Hours_per                                  10000  0.1026
+Adjusted_RN_Staffing_Hours_per_R                                  9665 <0.0001
+Number_of_Residents_in_Certified                                  9680 <0.0001
+Occupancy_Rate                                                   10000 <0.0001
+Years_Business                                                   10000 <0.0001
+Ownership_TypeGovernment                                          9697  0.0466
+Ownership_TypeNon-profit                                         10000 <0.0001
+Provider_Resides_in_HospitalTRUE                                  9622  0.0036
+Special_Focus_FacilityTRUE                                       10000 <0.0001
+Continuing_Care_Retirement_CommuTRUE                             10000 <0.0001
+With_a_Resident_and_Family_CouncYes                               9478  0.0006
+Provider_Changed_Ownership_in_LaTRUE                             10000  0.5490
+QM_Rating2                                                       10000 <0.0001
+QM_Rating3                                                       10000 <0.0001
+QM_Rating4                                                       10000 <0.0001
+QM_Rating5                                                       10000 <0.0001
+Subgroup_Simple_Overall_by_HRRSingle                              9561  0.1030
+proportionMultiple_HRRSc                                          9973  0.0258
+meanDegreeMultiple_HRRSc                                          9679 <0.0001
+delta_HHI_HRRSc                                                  10000  0.8978
+Ownership_TypeGovernment:Subgroup_Simple_Overall_by_HRRSingle    10000  0.0004
+Ownership_TypeNon-profit:Subgroup_Simple_Overall_by_HRRSingle    10000  0.1590
+                                                                 
+(Intercept)                                                   ***
+Adjusted_CNA_Staffing_Hours_per                               ***
+Adjusted_LPN_Staffing_Hours_per                                  
+Adjusted_RN_Staffing_Hours_per_R                              ***
+Number_of_Residents_in_Certified                              ***
+Occupancy_Rate                                                ***
+Years_Business                                                ***
+Ownership_TypeGovernment                                      *  
+Ownership_TypeNon-profit                                      ***
+Provider_Resides_in_HospitalTRUE                              ** 
+Special_Focus_FacilityTRUE                                    ***
+Continuing_Care_Retirement_CommuTRUE                          ***
+With_a_Resident_and_Family_CouncYes                           ***
+Provider_Changed_Ownership_in_LaTRUE                             
+QM_Rating2                                                    ***
+QM_Rating3                                                    ***
+QM_Rating4                                                    ***
+QM_Rating5                                                    ***
+Subgroup_Simple_Overall_by_HRRSingle                             
+proportionMultiple_HRRSc                                      *  
+meanDegreeMultiple_HRRSc                                      ***
+delta_HHI_HRRSc                                                  
+Ownership_TypeGovernment:Subgroup_Simple_Overall_by_HRRSingle ***
+Ownership_TypeNon-profit:Subgroup_Simple_Overall_by_HRRSingle    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

@@ -1,0 +1,70 @@
+
+========================================================================================================
+                 variable               post.mean l.95..CI u.95..CI  eff.samp  pMCMC   effect  modelName
+--------------------------------------------------------------------------------------------------------
+1              (Intercept)                3.399    3.206    3.586     10,000   0.0001  fixed    model1  
+2    Adjusted_CNA_Staffing_Hours_per     -0.064    -0.093   -0.033    10,000   0.0001  fixed    model1  
+3    Adjusted_LPN_Staffing_Hours_per      0.004    -0.036   0.041     10,000   0.837   fixed    model1  
+4    Adjusted_RN_Staffing_Hours_per_R    -0.537    -0.608   -0.465  9,537.164  0.0001  fixed    model1  
+5    Number_of_Residents_in_Certified     0.003    0.002    0.003   10,306.980 0.0001  fixed    model1  
+6             Occupancy_Rate             -0.009    -0.010   -0.007    10,000   0.0001  fixed    model1  
+7             Years_Business              0.003    0.001    0.004     10,000   0.001   fixed    model1  
+8        Ownership_TypeGovernment        -0.144    -0.218   -0.072    10,000   0.0002  fixed    model1  
+9        Ownership_TypeNon-profit        -0.181    -0.226   -0.134    10,000   0.0001  fixed    model1  
+10   Provider_Resides_in_HospitalYes     -0.029    -0.123   0.070     10,000   0.550   fixed    model1  
+11      Special_Focus_FacilityYes         1.287    1.096    1.491     10,000   0.0001  fixed    model1  
+12 Continuing_Care_Retirement_CommuYes   -0.050    -0.112   0.008     10,000   0.105   fixed    model1  
+13 With_a_Resident_and_Family_CouncYes    0.175    0.082    0.274   9,428.987  0.0002  fixed    model1  
+14 Provider_Changed_Ownership_in_LaYes    0.138    0.052    0.227   10,420.330 0.002   fixed    model1  
+15              QM_Rating2               -0.098    -0.154   -0.036    10,000   0.002   fixed    model1  
+16              QM_Rating3               -0.154    -0.215   -0.095    10,000   0.0001  fixed    model1  
+17              QM_Rating4               -0.208    -0.269   -0.149    10,000   0.0001  fixed    model1  
+18              QM_Rating5               -0.382    -0.438   -0.325  10,294.880 0.0001  fixed    model1  
+19 Subgroup_Simple_Overall_by_HRRSingle   0.068    0.033    0.103   10,287.000 0.0001  fixed    model1  
+20       proportionMultiple_HRRSc        -0.001    -0.004   0.002   9,652.264  0.702   fixed    model1  
+21       meanDegreeMultiple_HRRSc        -0.006    -0.025   0.017     10,000   0.602   fixed    model1  
+22            Provider_State              0.264    0.150    0.386     10,000           random   model1  
+23                 HRR                    0.085    0.064    0.107   8,962.194          random   model1  
+24                units                   0.596    0.578    0.614     10,000          residual  model1  
+25             (Intercept)                3.439    3.233    3.656   9,553.342  0.0001  fixed    model2  
+26   Adjusted_CNA_Staffing_Hours_per     -0.071    -0.107   -0.033    10,000   0.0002  fixed    model2  
+27   Adjusted_LPN_Staffing_Hours_per      0.022    -0.028   0.069     10,000   0.381   fixed    model2  
+28   Adjusted_RN_Staffing_Hours_per_R    -0.370    -0.470   -0.275  10,740.040 0.0001  fixed    model2  
+29   Number_of_Residents_in_Certified     0.002    0.002    0.003   10,326.300 0.0001  fixed    model2  
+30            Occupancy_Rate             -0.007    -0.009   -0.006    10,000   0.0001  fixed    model2  
+31            Years_Business              0.002    0.0002   0.004     10,000   0.032   fixed    model2  
+32       Ownership_TypeGovernment        -0.133    -0.221   -0.043    10,000   0.004   fixed    model2  
+33       Ownership_TypeNon-profit        -0.122    -0.172   -0.067  10,209.630 0.0001  fixed    model2  
+34   Provider_Resides_in_HospitalYes      0.116    -0.033   0.260   9,225.986  0.119   fixed    model2  
+35      Special_Focus_FacilityYes         1.195    0.986    1.401   10,370.820 0.0001  fixed    model2  
+36 Continuing_Care_Retirement_CommuYes   -0.023    -0.093   0.046     10,000   0.516   fixed    model2  
+37 With_a_Resident_and_Family_CouncYes    0.001    -0.146   0.139     10,000   0.986   fixed    model2  
+38 Provider_Changed_Ownership_in_LaYes    0.057    -0.040   0.150     10,000   0.244   fixed    model2  
+39 Subgroup_Simple_Overall_by_HRRSingle   0.061    0.022    0.101     10,000   0.001   fixed    model2  
+40       proportionMultiple_HRRSc        -0.001    -0.004   0.002     10,000   0.408   fixed    model2  
+41       meanDegreeMultiple_HRRSc       -0.00001   -0.020   0.021     10,000   0.992   fixed    model2  
+42               mds_401                  0.008    0.005    0.012     10,000   0.0001  fixed    model2  
+43               mds_402                  0.004    0.001    0.008   9,701.954  0.011   fixed    model2  
+44               mds_403                  0.021    0.016    0.026     10,000   0.0001  fixed    model2  
+45               mds_404                  0.005    0.001    0.010   10,527.550 0.025   fixed    model2  
+46               mds_405                 -0.001    -0.002   0.0003    10,000   0.170   fixed    model2  
+47               mds_406                  0.015    0.008    0.023   10,126.960 0.0001  fixed    model2  
+48               mds_407                 -0.010    -0.015   -0.005    10,000   0.0004  fixed    model2  
+49               mds_408                  0.001    -0.001   0.003     10,000   0.382   fixed    model2  
+50               mds_409                  0.006    -0.005   0.017     10,000   0.284   fixed    model2  
+51               mds_410                  0.009    0.001    0.017     10,000   0.021   fixed    model2  
+52               mds_411                 -0.006    -0.009   -0.004  9,688.165  0.0001  fixed    model2  
+53               mds_415                 -0.002    -0.004   0.0001    10,000   0.063   fixed    model2  
+54               mds_419                  0.005    0.002    0.007     10,000   0.0001  fixed    model2  
+55               mds_424                 -0.0003   -0.002   0.002     10,000   0.816   fixed    model2  
+56               mds_425                  0.014    0.002    0.027     10,000   0.030   fixed    model2  
+57               mds_426                 -0.0003   -0.002   0.001     10,000   0.710   fixed    model2  
+58               mds_430                 -0.004    -0.006   -0.003    10,000   0.0001  fixed    model2  
+59               mds_434                  0.017    0.009    0.026     10,000   0.001   fixed    model2  
+60               mds_451                  0.003    0.001    0.006     10,000   0.020   fixed    model2  
+61               mds_452                 -0.001    -0.003   0.001   10,388.480 0.536   fixed    model2  
+62               mds_471                 -0.003    -0.004   -0.002    10,000   0.0001  fixed    model2  
+63            Provider_State              0.262    0.154    0.389   10,373.420         random   model2  
+64                 HRR                    0.079    0.058    0.100   9,696.195          random   model2  
+65                units                   0.526    0.507    0.544     10,000          residual  model2  
+--------------------------------------------------------------------------------------------------------

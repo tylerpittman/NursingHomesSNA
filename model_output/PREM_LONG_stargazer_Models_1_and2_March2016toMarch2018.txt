@@ -1,0 +1,80 @@
+
+=================================================================================================================================
+                             variable                            post.mean l.95..CI u.95..CI  eff.samp  pMCMC   effect  modelName
+---------------------------------------------------------------------------------------------------------------------------------
+1                           (Intercept)                            3.301    2.772    3.843     10,000   0.0001  fixed    model1  
+2                 Adjusted_CNA_Staffing_Hours_per                 -0.033    -0.045   -0.020  9,659.750  0.0001  fixed    model1  
+3                 Adjusted_LPN_Staffing_Hours_per                  0.013    -0.002   0.030     10,000   0.103   fixed    model1  
+4                Adjusted_RN_Staffing_Hours_per_R                 -0.230    -0.261   -0.199  9,665.212  0.0001  fixed    model1  
+5                Number_of_Residents_in_Certified                  0.003    0.003    0.003   9,680.030  0.0001  fixed    model1  
+6                         Occupancy_Rate                          -0.005    -0.006   -0.005    10,000   0.0001  fixed    model1  
+7                         Years_Business                           0.006    0.004    0.007     10,000   0.0001  fixed    model1  
+8                    Ownership_TypeGovernment                     -0.048    -0.095   -0.001  9,696.772  0.047   fixed    model1  
+9                    Ownership_TypeNon-profit                     -0.130    -0.168   -0.094    10,000   0.0001  fixed    model1  
+10               Provider_Resides_in_HospitalTRUE                 -0.091    -0.149   -0.028  9,621.904  0.004   fixed    model1  
+11                  Special_Focus_FacilityTRUE                     0.618    0.554    0.689     10,000   0.0001  fixed    model1  
+12             Continuing_Care_Retirement_CommuTRUE               -0.090    -0.123   -0.053    10,000   0.0001  fixed    model1  
+13              With_a_Resident_and_Family_CouncYes                0.070    0.029    0.113   9,478.146  0.001   fixed    model1  
+14             Provider_Changed_Ownership_in_LaTRUE               -0.008    -0.033   0.016     10,000   0.549   fixed    model1  
+15                          QM_Rating2                            -0.042    -0.062   -0.023    10,000   0.0001  fixed    model1  
+16                          QM_Rating3                            -0.066    -0.086   -0.046    10,000   0.0001  fixed    model1  
+17                          QM_Rating4                            -0.106    -0.127   -0.085    10,000   0.0001  fixed    model1  
+18                          QM_Rating5                            -0.176    -0.197   -0.152    10,000   0.0001  fixed    model1  
+19             Subgroup_Simple_Overall_by_HRRSingle                0.021    -0.005   0.047   9,561.405  0.103   fixed    model1  
+20                   proportionMultiple_HRRSc                     -0.001    -0.003  -0.0002  9,973.099  0.026   fixed    model1  
+21                   meanDegreeMultiple_HRRSc                     -0.017    -0.025   -0.008  9,678.771  0.0001  fixed    model1  
+22                        delta_HHI_HRRSc                          0.031    -0.423   0.492     10,000   0.898   fixed    model1  
+23 Ownership_TypeGovernment:Subgroup_Simple_Overall_by_HRRSingle  -0.122    -0.196   -0.050    10,000   0.0004  fixed    model1  
+24 Ownership_TypeNon-profit:Subgroup_Simple_Overall_by_HRRSingle  -0.036    -0.085   0.013     10,000   0.159   fixed    model1  
+25                    Federal_Provider_Number                      0.515    0.500    0.530   8,654.440          random   model1  
+26                        Provider_State                           0.249    0.147    0.369     10,000           random   model1  
+27                              HRR                                0.096    0.075    0.121   7,170.604          random   model1  
+28                        Processing_Date                          0.328    0.045    0.849     10,000           random   model1  
+29                             units                               0.165    0.163    0.168   8,853.921         residual  model1  
+30                          (Intercept)                            3.345    2.810    3.885     10,000   0.0001  fixed    model2  
+31                Adjusted_CNA_Staffing_Hours_per                 -0.038    -0.051   -0.023    10,000   0.0001  fixed    model2  
+32                Adjusted_LPN_Staffing_Hours_per                  0.010    -0.009   0.028     10,000   0.290   fixed    model2  
+33               Adjusted_RN_Staffing_Hours_per_R                 -0.196    -0.237   -0.158  9,552.563  0.0001  fixed    model2  
+34               Number_of_Residents_in_Certified                  0.002    0.002    0.003   9,632.554  0.0001  fixed    model2  
+35                        Occupancy_Rate                          -0.005    -0.006   -0.004  9,670.110  0.0001  fixed    model2  
+36                        Years_Business                           0.004    0.003    0.006   9,626.531  0.0001  fixed    model2  
+37                   Ownership_TypeGovernment                     -0.052    -0.105   -0.003    10,000   0.045   fixed    model2  
+38                   Ownership_TypeNon-profit                     -0.113    -0.152   -0.072    10,000   0.0001  fixed    model2  
+39               Provider_Resides_in_HospitalTRUE                  0.110    0.021    0.193     10,000   0.010   fixed    model2  
+40                  Special_Focus_FacilityTRUE                     0.608    0.537    0.678   10,045.680 0.0001  fixed    model2  
+41             Continuing_Care_Retirement_CommuTRUE               -0.061    -0.099   -0.024  9,614.565  0.002   fixed    model2  
+42              With_a_Resident_and_Family_CouncYes                0.010    -0.043   0.062     10,000   0.712   fixed    model2  
+43             Provider_Changed_Ownership_in_LaTRUE               -0.010    -0.038   0.016   9,693.431  0.457   fixed    model2  
+44             Subgroup_Simple_Overall_by_HRRSingle                0.030    0.002    0.057     10,000   0.037   fixed    model2  
+45                   proportionMultiple_HRRSc                     -0.001    -0.003   0.0001    10,000   0.084   fixed    model2  
+46                   meanDegreeMultiple_HRRSc                     -0.023    -0.032   -0.013    10,000   0.0001  fixed    model2  
+47                        delta_HHI_HRRSc                          0.079    -0.403   0.576   9,428.721  0.759   fixed    model2  
+48                            mds_401                              0.006    0.005    0.008     10,000   0.0001  fixed    model2  
+49                            mds_402                              0.001   -0.0004   0.003   9,242.690  0.135   fixed    model2  
+50                            mds_403                              0.013    0.011    0.016   9,536.479  0.0001  fixed    model2  
+51                            mds_404                              0.002    0.0004   0.004     10,000   0.019   fixed    model2  
+52                            mds_405                             -0.001    -0.001  -0.0003    10,000   0.003   fixed    model2  
+53                            mds_406                              0.007    0.003    0.011     10,000   0.0001  fixed    model2  
+54                            mds_407                             -0.003    -0.005  -0.0003  9,443.513  0.034   fixed    model2  
+55                            mds_408                             0.0001    -0.001   0.001     10,000   0.914   fixed    model2  
+56                            mds_409                              0.006   -0.0003   0.012     10,000   0.072   fixed    model2  
+57                            mds_410                              0.004    0.001    0.007     10,000   0.007   fixed    model2  
+58                            mds_411                             -0.003    -0.004   -0.002    10,000   0.0001  fixed    model2  
+59                            mds_415                             -0.002    -0.003   -0.001    10,000   0.001   fixed    model2  
+60                            mds_419                              0.005    0.003    0.006   9,626.872  0.0001  fixed    model2  
+61                            mds_424                              0.002    0.001    0.002     10,000   0.002   fixed    model2  
+62                            mds_425                              0.008    0.002    0.013     10,000   0.009   fixed    model2  
+63                            mds_426                             -0.002    -0.002   -0.001    10,000   0.0001  fixed    model2  
+64                            mds_430                             -0.002    -0.003   -0.002  10,280.410 0.0001  fixed    model2  
+65                            mds_434                              0.009    0.006    0.012   9,337.580  0.0001  fixed    model2  
+66                            mds_451                             0.0005    -0.001   0.002     10,000   0.431   fixed    model2  
+67                            mds_452                             0.0004    -0.001   0.002   9,616.026  0.465   fixed    model2  
+68                            mds_471                             -0.002    -0.003   -0.002  9,335.785  0.0001  fixed    model2  
+69 Ownership_TypeGovernment:Subgroup_Simple_Overall_by_HRRSingle  -0.117    -0.201   -0.031    10,000   0.008   fixed    model2  
+70 Ownership_TypeNon-profit:Subgroup_Simple_Overall_by_HRRSingle  -0.015    -0.069   0.040     10,000   0.613   fixed    model2  
+71                    Federal_Provider_Number                      0.448    0.433    0.462   8,206.507          random   model2  
+72                        Provider_State                           0.242    0.144    0.360     10,000           random   model2  
+73                              HRR                                0.093    0.072    0.117     10,000           random   model2  
+74                        Processing_Date                          0.336    0.038    0.902     10,000           random   model2  
+75                             units                               0.161    0.158    0.164   8,961.510         residual  model2  
+---------------------------------------------------------------------------------------------------------------------------------

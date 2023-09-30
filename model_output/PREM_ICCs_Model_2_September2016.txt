@@ -1,0 +1,10 @@
+                                             ICC                    lower
+Provider_State              0.264278772413673702 0.1825119436020692931244
+(Intercept).HRR             0.097690003753983651 0.0671544181712078608326
+proportionMultiple_HRR.HRR -0.000000192437336157 0.0000000000000001994357
+meanDegreeMultiple_HRR.HRR -0.000000000006483392 0.0000000000000002028473
+                                    upper
+Provider_State             0.367164127556
+(Intercept).HRR            0.123943581392
+proportionMultiple_HRR.HRR 0.000061604615
+meanDegreeMultiple_HRR.HRR 0.000008827739

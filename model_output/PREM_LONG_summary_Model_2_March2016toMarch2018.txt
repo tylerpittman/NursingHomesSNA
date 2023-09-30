@@ -1,0 +1,247 @@
+
+ Iterations = 15001:114991
+ Thinning interval  = 10
+ Sample size  = 10000 
+
+ DIC: 326988.6 
+
+ G-structure:  ~Federal_Provider_Number
+
+                        post.mean l-95% CI u-95% CI eff.samp
+Federal_Provider_Number    0.4477    0.433   0.4624     8207
+
+               ~Provider_State
+
+               post.mean l-95% CI u-95% CI eff.samp
+Provider_State    0.2423   0.1436   0.3601    10000
+
+               ~HRR
+
+    post.mean l-95% CI u-95% CI eff.samp
+HRR   0.09341  0.07176   0.1167    10000
+
+               ~Processing_Date
+
+                post.mean l-95% CI u-95% CI eff.samp
+Processing_Date    0.3355   0.0382   0.9024    10000
+
+ R-structure:  ~units
+
+      post.mean l-95% CI u-95% CI eff.samp
+units    0.1608   0.1577   0.1637     8962
+
+ Location effects: Total_Weighted_Health_Survey_Sco ~ Adjusted_CNA_Staffing_Hours_per + Adjusted_LPN_Staffing_Hours_per + Adjusted_RN_Staffing_Hours_per_R + Number_of_Residents_in_Certified + Occupancy_Rate + Years_Business + Ownership_Type + Provider_Resides_in_Hospital + Special_Focus_Facility + Continuing_Care_Retirement_Commu + With_a_Resident_and_Family_Counc + Provider_Changed_Ownership_in_La + Subgroup_Simple_Overall_by_HRR + proportionMultiple_HRRSc + meanDegreeMultiple_HRRSc + delta_HHI_HRRSc + mds_401 + mds_402 + 
+    mds_403 + mds_404 + mds_405 + mds_406 + mds_407 + mds_408 + mds_409 + mds_410 + mds_411 + mds_415 + mds_419 + mds_424 + mds_425 + mds_426 + mds_430 + mds_434 + mds_451 + mds_452 + mds_471 + Ownership_Type * Subgroup_Simple_Overall_by_HRR 
+
+                                                                post.mean
+(Intercept)                                                    3.34457776
+Adjusted_CNA_Staffing_Hours_per                               -0.03753829
+Adjusted_LPN_Staffing_Hours_per                                0.01014951
+Adjusted_RN_Staffing_Hours_per_R                              -0.19573995
+Number_of_Residents_in_Certified                               0.00249564
+Occupancy_Rate                                                -0.00521121
+Years_Business                                                 0.00427804
+Ownership_TypeGovernment                                      -0.05178655
+Ownership_TypeNon-profit                                      -0.11302877
+Provider_Resides_in_HospitalTRUE                               0.10981623
+Special_Focus_FacilityTRUE                                     0.60763054
+Continuing_Care_Retirement_CommuTRUE                          -0.06063579
+With_a_Resident_and_Family_CouncYes                            0.00988304
+Provider_Changed_Ownership_in_LaTRUE                          -0.01019920
+Subgroup_Simple_Overall_by_HRRSingle                           0.02955381
+proportionMultiple_HRRSc                                      -0.00122416
+meanDegreeMultiple_HRRSc                                      -0.02256200
+delta_HHI_HRRSc                                                0.07851347
+mds_401                                                        0.00628442
+mds_402                                                        0.00124403
+mds_403                                                        0.01335897
+mds_404                                                        0.00232853
+mds_405                                                       -0.00090681
+mds_406                                                        0.00677971
+mds_407                                                       -0.00263078
+mds_408                                                        0.00005358
+mds_409                                                        0.00582327
+mds_410                                                        0.00417621
+mds_411                                                       -0.00315223
+mds_415                                                       -0.00179128
+mds_419                                                        0.00464622
+mds_424                                                        0.00153662
+mds_425                                                        0.00765103
+mds_426                                                       -0.00156555
+mds_430                                                       -0.00245932
+mds_434                                                        0.00930997
+mds_451                                                        0.00046258
+mds_452                                                        0.00044222
+mds_471                                                       -0.00210295
+Ownership_TypeGovernment:Subgroup_Simple_Overall_by_HRRSingle -0.11662973
+Ownership_TypeNon-profit:Subgroup_Simple_Overall_by_HRRSingle -0.01452094
+                                                                 l-95% CI
+(Intercept)                                                    2.80965241
+Adjusted_CNA_Staffing_Hours_per                               -0.05148387
+Adjusted_LPN_Staffing_Hours_per                               -0.00920977
+Adjusted_RN_Staffing_Hours_per_R                              -0.23748136
+Number_of_Residents_in_Certified                               0.00213918
+Occupancy_Rate                                                -0.00601720
+Years_Business                                                 0.00292834
+Ownership_TypeGovernment                                      -0.10462133
+Ownership_TypeNon-profit                                      -0.15225270
+Provider_Resides_in_HospitalTRUE                               0.02117078
+Special_Focus_FacilityTRUE                                     0.53725977
+Continuing_Care_Retirement_CommuTRUE                          -0.09897452
+With_a_Resident_and_Family_CouncYes                           -0.04303250
+Provider_Changed_Ownership_in_LaTRUE                          -0.03798264
+Subgroup_Simple_Overall_by_HRRSingle                           0.00185035
+proportionMultiple_HRRSc                                      -0.00262931
+meanDegreeMultiple_HRRSc                                      -0.03176291
+delta_HHI_HRRSc                                               -0.40322719
+mds_401                                                        0.00487318
+mds_402                                                       -0.00040819
+mds_403                                                        0.01109379
+mds_404                                                        0.00038984
+mds_405                                                       -0.00149964
+mds_406                                                        0.00331304
+mds_407                                                       -0.00503003
+mds_408                                                       -0.00106677
+mds_409                                                       -0.00032819
+mds_410                                                        0.00105884
+mds_411                                                       -0.00418884
+mds_415                                                       -0.00269253
+mds_419                                                        0.00341036
+mds_424                                                        0.00055388
+mds_425                                                        0.00204623
+mds_426                                                       -0.00223996
+mds_430                                                       -0.00314618
+mds_434                                                        0.00595018
+mds_451                                                       -0.00068488
+mds_452                                                       -0.00072829
+mds_471                                                       -0.00267593
+Ownership_TypeGovernment:Subgroup_Simple_Overall_by_HRRSingle -0.20071748
+Ownership_TypeNon-profit:Subgroup_Simple_Overall_by_HRRSingle -0.06924509
+                                                                 u-95% CI
+(Intercept)                                                    3.88549412
+Adjusted_CNA_Staffing_Hours_per                               -0.02324314
+Adjusted_LPN_Staffing_Hours_per                                0.02804960
+Adjusted_RN_Staffing_Hours_per_R                              -0.15756135
+Number_of_Residents_in_Certified                               0.00283103
+Occupancy_Rate                                                -0.00445481
+Years_Business                                                 0.00567068
+Ownership_TypeGovernment                                      -0.00304311
+Ownership_TypeNon-profit                                      -0.07231684
+Provider_Resides_in_HospitalTRUE                               0.19335475
+Special_Focus_FacilityTRUE                                     0.67771857
+Continuing_Care_Retirement_CommuTRUE                          -0.02353681
+With_a_Resident_and_Family_CouncYes                            0.06181221
+Provider_Changed_Ownership_in_LaTRUE                           0.01560468
+Subgroup_Simple_Overall_by_HRRSingle                           0.05662306
+proportionMultiple_HRRSc                                       0.00014204
+meanDegreeMultiple_HRRSc                                      -0.01316780
+delta_HHI_HRRSc                                                0.57642461
+mds_401                                                        0.00771037
+mds_402                                                        0.00287390
+mds_403                                                        0.01551065
+mds_404                                                        0.00427175
+mds_405                                                       -0.00031053
+mds_406                                                        0.01050400
+mds_407                                                       -0.00029927
+mds_408                                                        0.00119300
+mds_409                                                        0.01211739
+mds_410                                                        0.00719933
+mds_411                                                       -0.00206757
+mds_415                                                       -0.00083991
+mds_419                                                        0.00593273
+mds_424                                                        0.00249969
+mds_425                                                        0.01335384
+mds_426                                                       -0.00089910
+mds_430                                                       -0.00174416
+mds_434                                                        0.01238527
+mds_451                                                        0.00163074
+mds_452                                                        0.00164452
+mds_471                                                       -0.00153759
+Ownership_TypeGovernment:Subgroup_Simple_Overall_by_HRRSingle -0.03118393
+Ownership_TypeNon-profit:Subgroup_Simple_Overall_by_HRRSingle  0.04044677
+                                                              eff.samp   pMCMC
+(Intercept)                                                      10000 <0.0001
+Adjusted_CNA_Staffing_Hours_per                                  10000 <0.0001
+Adjusted_LPN_Staffing_Hours_per                                  10000  0.2896
+Adjusted_RN_Staffing_Hours_per_R                                  9553 <0.0001
+Number_of_Residents_in_Certified                                  9633 <0.0001
+Occupancy_Rate                                                    9670 <0.0001
+Years_Business                                                    9627 <0.0001
+Ownership_TypeGovernment                                         10000  0.0454
+Ownership_TypeNon-profit                                         10000 <0.0001
+Provider_Resides_in_HospitalTRUE                                 10000  0.0100
+Special_Focus_FacilityTRUE                                       10046 <0.0001
+Continuing_Care_Retirement_CommuTRUE                              9615  0.0016
+With_a_Resident_and_Family_CouncYes                              10000  0.7120
+Provider_Changed_Ownership_in_LaTRUE                              9693  0.4572
+Subgroup_Simple_Overall_by_HRRSingle                             10000  0.0370
+proportionMultiple_HRRSc                                         10000  0.0838
+meanDegreeMultiple_HRRSc                                         10000 <0.0001
+delta_HHI_HRRSc                                                   9429  0.7592
+mds_401                                                          10000 <0.0001
+mds_402                                                           9243  0.1350
+mds_403                                                           9536 <0.0001
+mds_404                                                          10000  0.0190
+mds_405                                                          10000  0.0026
+mds_406                                                          10000 <0.0001
+mds_407                                                           9444  0.0342
+mds_408                                                          10000  0.9144
+mds_409                                                          10000  0.0716
+mds_410                                                          10000  0.0074
+mds_411                                                          10000 <0.0001
+mds_415                                                          10000  0.0006
+mds_419                                                           9627 <0.0001
+mds_424                                                          10000  0.0018
+mds_425                                                          10000  0.0092
+mds_426                                                          10000 <0.0001
+mds_430                                                          10280 <0.0001
+mds_434                                                           9338 <0.0001
+mds_451                                                          10000  0.4310
+mds_452                                                           9616  0.4650
+mds_471                                                           9336 <0.0001
+Ownership_TypeGovernment:Subgroup_Simple_Overall_by_HRRSingle    10000  0.0082
+Ownership_TypeNon-profit:Subgroup_Simple_Overall_by_HRRSingle    10000  0.6128
+                                                                 
+(Intercept)                                                   ***
+Adjusted_CNA_Staffing_Hours_per                               ***
+Adjusted_LPN_Staffing_Hours_per                                  
+Adjusted_RN_Staffing_Hours_per_R                              ***
+Number_of_Residents_in_Certified                              ***
+Occupancy_Rate                                                ***
+Years_Business                                                ***
+Ownership_TypeGovernment                                      *  
+Ownership_TypeNon-profit                                      ***
+Provider_Resides_in_HospitalTRUE                              *  
+Special_Focus_FacilityTRUE                                    ***
+Continuing_Care_Retirement_CommuTRUE                          ** 
+With_a_Resident_and_Family_CouncYes                              
+Provider_Changed_Ownership_in_LaTRUE                             
+Subgroup_Simple_Overall_by_HRRSingle                          *  
+proportionMultiple_HRRSc                                      .  
+meanDegreeMultiple_HRRSc                                      ***
+delta_HHI_HRRSc                                                  
+mds_401                                                       ***
+mds_402                                                          
+mds_403                                                       ***
+mds_404                                                       *  
+mds_405                                                       ** 
+mds_406                                                       ***
+mds_407                                                       *  
+mds_408                                                          
+mds_409                                                       .  
+mds_410                                                       ** 
+mds_411                                                       ***
+mds_415                                                       ***
+mds_419                                                       ***
+mds_424                                                       ** 
+mds_425                                                       ** 
+mds_426                                                       ***
+mds_430                                                       ***
+mds_434                                                       ***
+mds_451                                                          
+mds_452                                                          
+mds_471                                                       ***
+Ownership_TypeGovernment:Subgroup_Simple_Overall_by_HRRSingle ** 
+Ownership_TypeNon-profit:Subgroup_Simple_Overall_by_HRRSingle    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1

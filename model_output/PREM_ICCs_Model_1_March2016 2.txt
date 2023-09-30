@@ -1,0 +1,3 @@
+                      ICC      lower     upper
+Provider_State  0.2743347 0.18279495 0.3639319
+(Intercept).HRR 0.0900520 0.06655278 0.1155985

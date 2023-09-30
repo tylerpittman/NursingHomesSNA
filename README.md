@@ -1,5 +1,7 @@
 # NursingHomesSNA
 
+This project uses the Nursing Home Compare open datasets from the Centers for Medicare and Medicaid Services.
+
 #!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#
 ## Order to run MedicareUS_scripts ##
 ## 1_nursing_homes_SNA_looping_April2018.sas

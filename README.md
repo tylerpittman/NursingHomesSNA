@@ -4,8 +4,8 @@ This project uses the Nursing Home Compare open datasets from the Centers for Me
 
 #!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#
 Order to run MedicareUS_scripts
-[1_nursing_homes_SNA_looping_April2018.sas](https://github.com/tylerpittman/NursingHomesSNA/tree/main/scripts/1_nursing_homes_SNA_looping_April2018.sas)
-[2_nursing_homes_SNA_looping_April2018.sas](https://github.com/tylerpittman/NursingHomesSNA/tree/main/scripts/2_nursing_homes_SNA_looping_April2018.sas)
+[1_nursing_homes_SNA_looping_April2018.sas](https://github.com/tylerpittman/NursingHomesSNA/tree/main/scripts/1_nursing_homes_SNA_looping_April2018.sas) \
+[2_nursing_homes_SNA_looping_April2018.sas](https://github.com/tylerpittman/NursingHomesSNA/tree/main/scripts/2_nursing_homes_SNA_looping_April2018.sas) \
 [3_nursing_homes_SNA_looping_April2018.sas](https://github.com/tylerpittman/NursingHomesSNA/tree/main/scripts/3_nursing_homes_SNA_looping_April2018.sas)
 [4_transpose_MDS_fixed_November2018.sas](https://github.com/tylerpittman/NursingHomesSNA/tree/main/scripts/4_transpose_MDS_fixed_November2018.sas)
 [STEP_01_nursing_homes_geocode_looping_April2018.R](https://github.com/tylerpittman/NursingHomesSNA/tree/main/scripts/STEP_01_nursing_homes_geocode_looping_April2018.sas)

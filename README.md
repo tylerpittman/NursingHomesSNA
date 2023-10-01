@@ -17,4 +17,4 @@ Order to run MedicareUS_scripts \
 [STEP_06_merge_MDS_nursing_homes_6May2019.R](https://github.com/tylerpittman/NursingHomesSNA/tree/main/scripts/STEP_06_merge_MDS_nursing_homes_6May2019.sas) \
 [STEP_07_nursing_homes_spatial_hierarchical_6May2019.R](https://github.com/tylerpittman/NursingHomesSNA/tree/main/scripts/STEP_07_nursing_homes_spatial_hierarchical_6May2019.sas) \
 [STEP_08_nursing_homes_longitudinal_15June2019.R](https://github.com/tylerpittman/NursingHomesSNA/tree/main/scripts/STEP_08_nursing_homes_longitudinal_15June2019.sas) \
-#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!# \
+#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!# 

@@ -1,6 +1,8 @@
 # NursingHomesSNA
 
-This project uses the Nursing Home Compare open datasets from the Centers for Medicare and Medicaid Services.
+This project uses the Nursing Home Compare open datasets from the Centers for Medicare and Medicaid Services. Linked to the 2015 American Community Survey, county information from 2010 United States Census and Hospital Referral Regions from the Dartmouth Atlas Project.
+
+This manuscript is the first published to utilize social network analysis for the ownership groups of American nursing homes. It is also the first to use Hospital Referral Region as an ecologic unit to denote nursing home competition and care quality.
 
 #!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!#!-@-!# \
 Order to run MedicareUS_scripts \

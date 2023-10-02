@@ -1,6 +1,6 @@
 # NursingHomesSNA
 
-This project uses the Nursing Home Compare open datasets from the Centers for Medicare and Medicaid Services. Linked to the 2015 American Community Survey, county information from 2010 United States Census and Hospital Referral Regions from the Dartmouth Atlas Project.
+This project uses the Nursing Home Compare open datasets from the Centers for Medicare and Medicaid Services. Linked to the 2015 American Community Survey, county information from the 2010 United States Census and Hospital Referral Regions from the Dartmouth Atlas Project.
 
 The published manuscript is the first that utilizes social network analysis to demarcate the latent ownership groups of American nursing homes. It is also the first that utilizes Hospital Referral Region (HRR) as ecologic unit in the association between nursing home competition and care quality. The use of HRR to characterize nursing home competition faced criticism when proposed, but has quickly gained traction since the COVID-19 pandemic.
 
